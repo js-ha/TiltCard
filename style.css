@@ -1,0 +1,33 @@
+body {
+  padding: 3em 1em;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  background-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  width: 18em;
+  perspective: 500px;
+}
+
+.card {
+  background: linear-gradient(45deg, #9829c8, #4663e9);
+  color: #fff;
+  padding: 2em;
+  width: 18em;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: 0.1s;
+}
